@@ -1,0 +1,25 @@
+{
+  "name": "4.4-gitub-profile",
+  "version": "0.0.0",
+  "homepage": "https://github.com/xfactor4/4.4-gitub-profile",
+  "authors": [
+    "<xfactor4> <gdrobinson92@comcast.net>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.5",
+    "handlebars": "~4.0.2",
+    "jquery": "jQuery#~2.1.4",
+    "neat": "~1.7.2"
+  }
+}
