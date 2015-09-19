@@ -47,8 +47,7 @@ a {
   float: left;
 }
 
-.profile-picture {
-  background-image: url(../profile.jpeg);
+.profile-picture img {
   height: 236px;
   width: 237px;
 background-size: cover;
@@ -94,7 +93,7 @@ margin-top: 20px;
 #repo-container {
   width: 750px;
   height: 2500px;
-  border: thin solid lightgrey;
+
   display: inline-block;
 }
 

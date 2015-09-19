@@ -8,6 +8,27 @@ console.log(api);
 });
 });
 
+
+
+
+$.ajax({
+  url:'https://api.github.com/users/xfactor4',
+  method: "GET",
+  headers: {"Authorization": "token cee5004dd4f4598e6bb43e7f49d11702a12a9f6b"}
+}).then(function(api){
+
+
+var profileURL = "https://api.github.com/users/xfactor4";
+$.ajax(profileURL).then(function(profile) {
+  console.log(profile.avatar_url)
+  $(".profile-picture").html('<img src="' + profile.avatar_url +'"/>');
+})
+
+});
+
+
+
+
 $.ajax({
   url:'https://api.github.com/users/xfactor4/repos',
   method: "GET",
